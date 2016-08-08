@@ -43,3 +43,11 @@ body {
 	color: #FA5849;
 	border-bottom: 2px solid #312c33;
 }
+
+.red {
+	color: #FA5849;
+}
+.small-info {
+	font-size: 250%;
+	padding-top: 1em;
+}
