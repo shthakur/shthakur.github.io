@@ -66,3 +66,16 @@ body {
 .links-icon:hover {
 	color: #FA5849;
 }
+
+.about__hi {
+	font-size: 400%;
+}
+
+.about__content {
+	font-size: 150%;
+}
+
+a, a:visited {
+	color: #312c33;
+}
+
