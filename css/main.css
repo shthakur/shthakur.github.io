@@ -67,12 +67,23 @@ body {
 	color: #FA5849;
 }
 
+.about {
+	text-align: left;
+}
+
 .about__hi {
 	font-size: 400%;
+	border-bottom: 1px solid #312c33;
 }
 
 .about__content {
 	font-size: 150%;
+	width: 50%;
+	text-align: left;
+}
+
+.about__content div {
+	padding-bottom: 30px;
 }
 
 a, a:visited {
