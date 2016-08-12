@@ -5,10 +5,9 @@
 }
 
 body {
-	font-size: 12px;
     color: #312c33;
     background-color: #f6f5f0;
-    font: 118.8%/1.5 "adobe-text-pro","Minion Pro",Georgia,"Times New Roman",Times,serif;
+    font: 90% "adobe-text-pro","Minion Pro",Georgia,"Times New Roman",Times,serif;
     font-weight: 400;
     text-align: left;
     padding: 0 2em;
@@ -38,7 +37,7 @@ body {
 
 .name {
 	display: inline-block;
-	font-size: 600%;
+	font-size: 300%;
 	text-transform: capitalize;
 	color: #FA5849;
 	border-bottom: 2px solid #312c33;
@@ -48,18 +47,19 @@ body {
 	color: #FA5849;
 }
 .small-info {
-	font-size: 250%;
+	font-size: 150%;
 	padding-top: 1em;
 }
 
 .links {
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 .links-icon {
 	cursor: pointer;
 	display: inline-block;
 	width: 3em;
+	padding-top: 1em;
 	font-size: 150%;
 }
 
@@ -72,21 +72,92 @@ body {
 }
 
 .about__hi {
-	font-size: 400%;
+	font-size: 250%;
 	border-bottom: 1px solid #312c33;
 }
 
 .about__content {
-	font-size: 150%;
-	width: 50%;
-	text-align: left;
+	font-size: 130%;
+	width: 90%;
+	padding-top: 1em;
+	line-height: 1.4;
+	font-weight: 300;
 }
 
 .about__content div {
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 
 a, a:visited {
 	color: #312c33;
 }
 
+@media only screen and (min-width: 400px) {
+	body {
+		font-size: 100%;
+	}
+
+	.name {
+		font-size: 350%;
+	}
+
+	.small-info {
+		font-size: 170%;
+	}
+
+	.about__hi {
+		font-size: 350%;
+	}
+
+	.about__content {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 120%;
+	}
+
+	.name {
+		font-size: 400%;
+	}
+
+	.small-info {
+		font-size: 200%;
+	}
+
+	.about__hi {
+		font-size: 400%;
+	}
+
+	.about__content {
+		width: 60%;
+	}
+
+}
+
+@media only screen and (min-width: 1280px) {
+	body {
+		font-size: 140%;
+	}
+
+	.name {
+		font-size: 440%;
+	}
+
+	.small-info {
+		font-size: 240%;
+	}
+
+	.about__hi {
+		font-size: 440%;
+	}
+
+	.about__content {
+		font-size: 120%;
+		width: 40%;
+	}
+
+}
